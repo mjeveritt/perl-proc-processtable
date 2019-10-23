@@ -1,6 +1,7 @@
 # Proc::ProcessTable
 
-[![Build Status](https://travis-ci.org/mjeveritt/perl-proc-processtable.svg?branch=master)](https://travis-ci.org/mjeveritt/perl-proc-processtable) [![Coverage Status](https://coveralls.io/repos/github/mjeveritt/perl-proc-processtable/badge.svg?branch=master)](https://coveralls.io/github/mjeveritt/perl-proc-processtable?branch=master)
+Master: [![Build Status](https://travis-ci.org/mjeveritt/perl-proc-processtable.svg?branch=master)](https://travis-ci.org/mjeveritt/perl-proc-processtable) [![Coverage Status](https://coveralls.io/repos/github/mjeveritt/perl-proc-processtable/badge.svg?branch=master)](https://coveralls.io/github/mjeveritt/perl-proc-processtable?branch=master)
+Canon.: [![Build Status](https://travis-ci.com/mjeveritt/perl-proc-processtable.svg?branch=fix_canonicalize)](https://travis-ci.com/mjeveritt/perl-proc-processtable)
 
 Please use github or [rt.cpan.org](https://rt.cpan.org/Public/Dist/Display.html?Name=Proc-ProcessTable) to submit bugs and patches.
 
