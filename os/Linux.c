@@ -393,7 +393,8 @@ static void eval_link(char *pid, char *link_rel, enum field field, char **ptr,
      * for the cwd symlink, since on linux the links we care about will never
      * be relative links (cwd, exec)
      * Doing this because readlink works on static buffers */
-    link = canonicalize_file_name(link_file);
+    /* link = canonicalize_file_name(link_file); */
+    link = realpath(link_file);
 
     /* we no longer need need the path to the link file */
     obstack_free(mem_pool, link_file);
